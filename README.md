@@ -34,10 +34,12 @@
 - dotenv:来读取 .env 配置文件，加载后的环境配置参数,可通过process.env来读取
 - cross-env能跨平台地设置及使用环境变量cross-env NODE_ENV=production 
 - babel-cli 将es6语法转换成es5语法
-- morgan一天写入一个日志文件
+- morgan可以尝试一天写入一个日志文件
 - body-parser Express 获取Get和Post请求的参数:参考https://www.jianshu.com/p/f219ff84c5e5
 - compression 降低响应主体的大小
 - validator：nodejs的后端字符串验证器
+- pm2 生产环境下使用
+- nodemon 开发环境刷新保存的代码不用重启，热加载
 #### 已完成
 - 在Node中使用ES6语法，并且实时刷新保存的代码不用重启，热加载，nodemon类似gulp：https://segmentfault.com/a/1190000006707756
 - 数据库model，路由routes，控制层controllers层封装
@@ -53,3 +55,6 @@
 - nginx -t 查看nginx.conf配置文件目录，chmod 777 文件名读写权限；nginx.conf地址etc/nginx，nginx命令文件地址/usr/sbin
 - pm2启动命令：https://www.jianshu.com/p/6b3b506f7d0a
 - 代码上传到github
+- github推送权限：https://www.jianshu.com/p/d136dee10561
+#### 待完成
+- 参考制作页面：https://juejin.im/post/5badc172e51d450e9704fc7a?utm_source=gold_browser_extension

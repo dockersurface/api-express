@@ -1,7 +1,7 @@
 {
-    "name": "example",
+    "name": "接口文档",
     "version": "0.1.0",
-    "description": "apiDoc basic example",
-    "title": "Custom apiDoc browser title",
-    "url" : "https://api.github.com/v1"
+    "description": "express框架接口文档",
+    "title": "接口文档",
+    "url" : "111.231.87.221"
 }
