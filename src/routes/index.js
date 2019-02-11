@@ -66,7 +66,7 @@ router.post('/register', loginController.register );
  */
 router.get('/index', loginController.getLeaveWord )
 router.get('/test', (req, res) => {
-    res.send('helloworld');
+    res.send('helloworld1');
 })
 
 module.exports = router

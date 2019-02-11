@@ -9,6 +9,7 @@
     "build:prod": "babel src -s -D -d build",
     "start:server": "pm2 start build/index.js",
     "stop:server": "pm2 stop all",
+    "restart": "pm2 restart all",
     "log": "pm2 logs"
   },
   "author": "",
