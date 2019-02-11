@@ -55,6 +55,6 @@
 - nginx -t 查看nginx.conf配置文件目录，chmod 777 文件名读写权限；nginx.conf地址etc/nginx，nginx命令文件地址/usr/sbin
 - pm2启动命令：https://www.jianshu.com/p/6b3b506f7d0a
 - 代码上传到github
-- github推送权限：https://www.jianshu.com/p/d136dee10561
+- github推送权限：https://www.jianshu.com/p/d136dee10561,https://blog.csdn.net/qq_35246620/article/details/69061355
 #### 待完成
 - 参考制作页面：https://juejin.im/post/5badc172e51d450e9704fc7a?utm_source=gold_browser_extension

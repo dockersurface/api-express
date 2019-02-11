@@ -31,7 +31,7 @@ class UserController {
             if(user[0].password == encryDate) {
                 // 用户登录成功过后生成token返给前端
                 let token = jwt.sign({username: username}, config.secretKey, {
-                    expiresIn : 60 * 60 * 24 // 授权时效24小时
+                    expiresIn : 60 * 10 // 授权时效10分钟
                 });
                 return res.send({
                     code: 0,
