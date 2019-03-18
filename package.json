@@ -6,10 +6,10 @@
   "scripts": {
     "start": "nodemon src/index.js --exec babel-node",
     "start:prod": "npm run build:prod && npm run start:server",
+    "restart": "npm run build:prod && pm2 restart all",
+    "stop:server": "pm2 stop all",
     "build:prod": "babel src -s -D -d build",
     "start:server": "pm2 start build/index.js",
-    "stop:server": "pm2 stop all",
-    "restart": "pm2 restart all",
     "log": "pm2 logs"
   },
   "author": "",

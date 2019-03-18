@@ -40,6 +40,12 @@
 - validator：nodejs的后端字符串验证器
 - pm2 生产环境下使用
 - nodemon 开发环境刷新保存的代码不用重启，热加载
+#### npm命令
+>启动pm2后只是本地可以访问，需要nginx代理转发请求
+- npm run start:本地开发使用
+- npm run start:prod:线上使用
+- npm run restart:线上重启
+- npm run stop:server:关闭服务
 #### 已完成
 - 在Node中使用ES6语法，并且实时刷新保存的代码不用重启，热加载，nodemon类似gulp：https://segmentfault.com/a/1190000006707756
 - 数据库model，路由routes，控制层controllers层封装
